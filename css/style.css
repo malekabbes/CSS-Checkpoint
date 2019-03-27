@@ -1,0 +1,127 @@
+﻿/* style */
+body {
+    padding-bottom: 20px;
+}
+*{padding:0;margin:0;}
+
+.heading1
+{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size:100px;
+color:red;
+font-style: bold;
+text-align: center;
+text-shadow: 2px 2px #ffffff;
+}
+.cover {
+    background-image: url(../res/tn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 87px;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+}
+.cover:hover {
+	outline-color: #ff0000;
+	outline-offset: 2px;
+}
+.heading2{
+	display: block;
+	text-align: center;
+	text-shadow:2px 2px #0004ff;
+	font-size:50px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	padding-left:40px;
+}
+	/* bg colors */
+	.bg-light-gray      { background-color: #eee !important;                }
+/* background image */
+body {
+	color:black;
+	background-color:rgba(190, 190, 190, 0.993);
+	    padding-bottom: 250px;
+	}
+	/* First container parametres */
+	.square1 {
+    padding: 45px;
+    width: 49%;
+    display: inline-block;
+    height: 600px;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 1;
+    background-image: url(../res/M.jpg);
+
+}
+	.square2 {
+   padding: 45px;
+    width: 49%;
+    display: inline-block;
+    height: 600px;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 1;
+    background-image: url(../res/K.jpg);
+  
+}
+	.square3 {
+   padding: 45px;
+    width: 49%;
+    display: inline-block;
+    height: 600px;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 1;
+    transition: all .3s;
+    background-image: url(../res/H.jpg);
+  
+}
+	.square4 {
+   padding: 45px;
+    width: 49%;
+    display: inline-block;
+    height: 600px;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 1;
+    transition: all .3s;
+    background-image: url(../res/MO.jpg);
+  
+}
+.square1:hover {
+	outline: 6px solid rgb(22, 22, 22);
+	outline-offset: -6px;
+	}
+.square2:hover {
+	outline: 6px solid #ff0000;
+	outline-offset: -6px;
+	}
+.square3:hover {
+	outline: 6px solid blue;
+	outline-offset: -6px;
+	}
+.square4:hover {
+	outline: 6px solid yellow;
+	outline-offset: -6px;
+	}
+.titre{
+	text-shadow: #020202 1px 0.5px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding:2px;
+	font-size:30px;
+	text-align:center;
+}
+.lektiba{
+	padding:20px;
+	font-family: fantasy;
+	text-align: justify;
+	color:#ffffff;
+	text-shadow: 1px 1px 1px blue;
+}
+.container {
+    width: 50%;
+    margin: auto;
+}
+page-footer font-small blue {
+}
